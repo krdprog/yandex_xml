@@ -28,7 +28,7 @@ gem install yandex_xml
 
 **YandexXml has settings:** user, key, region, keyword
 
-```
+```ruby
 require 'yandex_xml'
 
 parse = YandexXml.new(user: 'your_yandex_login',
