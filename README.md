@@ -43,4 +43,4 @@ puts parse.to_xml
 
 Real data for **your_yandex_login** and **your_yandex_xml_key** remove and add from page [https://xml.yandex.ru/settings/](https://xml.yandex.ru/settings/)
 
-**Yandex regions:** see [https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/](https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/)
+**Yandex regions:** [https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/](https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/)
