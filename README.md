@@ -89,11 +89,13 @@ parser = YandexXml.new(user: 'your_yandex_login',
   region: 'your_yandex_region')
 
 p parser.get_position('ruby on rails', 'rusrails.ru')
-# => String with position
+# => Position number or 0 if site not found in TOP-100 (Integer)
 ```
 
 **Results has data:**
-String with position
+Position number or 0 if site not found in TOP-100 (Integer)
+
+## Links and how get real data
 
 Real data for **your_yandex_login** and **your_yandex_xml_key** remove and add from page [https://xml.yandex.ru/settings/](https://xml.yandex.ru/settings/)
 
