@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'yandex_xml'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2019-10-06'
   s.summary     = "Ruby application for Yandex.XML service"
   s.description = "Get data from Yandex.XML service by XML"
@@ -10,4 +10,10 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://github.com/krdprog/yandex_xml'
   s.license       = 'MIT'
+
+  s.metadata = {
+  "documentation_uri" => "http://www.rubydoc.info/gems/yandex_xml/1.0.1",
+  "homepage_uri"      => "https://github.com/krdprog/yandex_xml"
+  }
+  s.post_install_message = "Thanks for installing! Author: @krdprog"
 end
