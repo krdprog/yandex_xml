@@ -28,7 +28,7 @@ gem install yandex_xml
 
 **YandexXml has settings:** user, key, region, keyword
 
-### Get data from Yandex.XML and create Hash with result
+### Usage 1: Get data from Yandex.XML and create Hash with result
 
 **Method:** get(keyword)
 
@@ -60,7 +60,7 @@ p parser.get('ruby on rails')
 - turbo_fallback,
 - turbo_link
 
-**Get 100 urls (Yandex Top-100) from result**
+### Usage 2: Get 100 urls (Yandex Top-100) from result
 
 **Method:** get_top100_urls(keyword)
 
@@ -77,7 +77,7 @@ p parser.get_top100_urls('ruby')
 **Results has data:**
 Array with URLs
 
-**Get position in Yandex Top-100 for site by keyword**
+### Usage 3: Get position in Yandex Top-100 for site by keyword
 
 **Method:** get_position(keyword, my_domain)
 
