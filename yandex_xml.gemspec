@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'yandex_xml'
-  s.version     = '0.0.1'
-  s.date        = '2019-03-01'
+  s.version     = '1.0.0'
+  s.date        = '2019-10-06'
   s.summary     = "Ruby application for Yandex.XML service"
   s.description = "Get data from Yandex.XML service by XML"
   s.authors     = ["Alexey Tsaplin-Kupaysinov"]
