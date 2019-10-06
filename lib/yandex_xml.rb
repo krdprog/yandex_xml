@@ -1,4 +1,4 @@
-# Yandex.XML parser - version 1.0.0 (gem yandex_xml)
+# Yandex.XML parser - version 1.0.1 (gem yandex_xml)
 # Author: https://github.com/krdprog/ - Alexey Tsaplin-Kupaysinov
 # License: MIT
 require 'net/http'
