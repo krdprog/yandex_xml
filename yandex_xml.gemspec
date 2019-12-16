@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 
   s.metadata = {
-  "documentation_uri" => "https://rubydoc.info/github/krdprog/yandex_xml/",
+  "documentation_uri" => "https://rubydoc.info/gems/yandex_xml/1.1.0",
   "homepage_uri"      => "https://github.com/krdprog/yandex_xml"
   }
   s.post_install_message = "Thanks for installing! Author: @krdprog"
