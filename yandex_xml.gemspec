@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Get data from Yandex.XML service by XML"
   s.authors     = ["Alexey Tsaplin-Kupaysinov"]
   s.email       = 'info@krdprog.ru'
-  s.files       = ["lib/yandex_xml.rb"]
+  s.files       = Dir['lib/yandex_xml.rb', 'LICENSE', 'README.md']
   s.homepage    =
     'https://github.com/krdprog/yandex_xml'
   s.license       = 'MIT'
