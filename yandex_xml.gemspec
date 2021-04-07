@@ -6,13 +6,13 @@ Gem::Specification.new do |s|
   s.description = "Get data from Yandex.XML service by XML"
   s.authors     = ["Alexey Tsaplin-Kupaysinov"]
   s.email       = 'info@krdprog.ru'
-  s.files       = ["lib/yandex_xml.rb"]
+  s.files       = Dir['lib/yandex_xml.rb', 'LICENSE', 'README.md']
   s.homepage    =
     'https://github.com/krdprog/yandex_xml'
   s.license       = 'MIT'
 
   s.metadata = {
-  "documentation_uri" => "https://rubydoc.info/github/krdprog/yandex_xml/",
+  "documentation_uri" => "https://rubydoc.info/gems/yandex_xml/1.1.0",
   "homepage_uri"      => "https://github.com/krdprog/yandex_xml"
   }
   s.post_install_message = "Thanks for installing! Author: @krdprog"
